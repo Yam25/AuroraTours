@@ -1,0 +1,23 @@
+.c-item {
+	height: 480px;
+}
+
+.c-img {
+	height: 100%;
+	object-fit: cover; /* will preserve the ratio of image*/
+	filter: brightness(0.7);
+}
+
+.overview {
+	height: 180px;
+	background-color: lightgray;
+}
+
+.testimonial-card, .pack-card {
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.testimonial-card:hover, .pack-card:hover {
+	transform: scale(1.05);
+	box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
